@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3950C8D42AEFE4C700EA5C4A /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950C8D32AEFE4C700EA5C4A /* CLLocation.swift */; };
+		3950C8DA2AEFE6FA00EA5C4A /* MarkerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950C8D92AEFE6FA00EA5C4A /* MarkerViews.swift */; };
+		3950C8DC2AEFE73B00EA5C4A /* AnnotationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950C8DB2AEFE73B00EA5C4A /* AnnotationViews.swift */; };
 		397D3FE02AEFD21400E82EA9 /* Hello_MapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397D3FDF2AEFD21400E82EA9 /* Hello_MapsApp.swift */; };
 		397D3FE22AEFD21400E82EA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397D3FE12AEFD21400E82EA9 /* ContentView.swift */; };
 		397D3FE42AEFD21600E82EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397D3FE32AEFD21600E82EA9 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3950C8D32AEFE4C700EA5C4A /* CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		3950C8D92AEFE6FA00EA5C4A /* MarkerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViews.swift; sourceTree = "<group>"; };
+		3950C8DB2AEFE73B00EA5C4A /* AnnotationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViews.swift; sourceTree = "<group>"; };
 		397D3FDC2AEFD21400E82EA9 /* Hello Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		397D3FDF2AEFD21400E82EA9 /* Hello_MapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_MapsApp.swift; sourceTree = "<group>"; };
 		397D3FE12AEFD21400E82EA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3950C8D52AEFE4CF00EA5C4A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3950C8D32AEFE4C700EA5C4A /* CLLocation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3950C8D82AEFE69300EA5C4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3950C8D92AEFE6FA00EA5C4A /* MarkerViews.swift */,
+				3950C8DB2AEFE73B00EA5C4A /* AnnotationViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		397D3FD32AEFD21400E82EA9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +74,8 @@
 		397D3FDE2AEFD21400E82EA9 /* Hello Maps */ = {
 			isa = PBXGroup;
 			children = (
+				3950C8D52AEFE4CF00EA5C4A /* Utilities */,
+				3950C8D82AEFE69300EA5C4A /* Views */,
 				397D3FDF2AEFD21400E82EA9 /* Hello_MapsApp.swift */,
 				397D3FE12AEFD21400E82EA9 /* ContentView.swift */,
 				397D3FE32AEFD21600E82EA9 /* Assets.xcassets */,
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3950C8DA2AEFE6FA00EA5C4A /* MarkerViews.swift in Sources */,
+				3950C8D42AEFE4C700EA5C4A /* CLLocation.swift in Sources */,
 				397D3FE22AEFD21400E82EA9 /* ContentView.swift in Sources */,
 				397D3FE02AEFD21400E82EA9 /* Hello_MapsApp.swift in Sources */,
+				3950C8DC2AEFE73B00EA5C4A /* AnnotationViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
